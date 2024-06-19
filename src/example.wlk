@@ -170,3 +170,19 @@ class NaveCombateSigilosa inherits NaveCombate{
 		self.ponerseInvisible()
 	}
 } 
+
+/*
+class Boliche{
+	const capacidad  = 1000
+	var cantGente
+	method entrar(cant){
+		 //self.error("no hay lugar")
+		if(self.lugarDisponible() < cant)
+		   throw new Exception(message = "no hay lugar")
+		cantGente += cant 
+	}
+	method lugarDisponible() = capacidad - cantGente
+}
+*/
+// para testear exception =  assert.throwsExceptionWithMessage("no hay lugar", {boliche.entrar(2})
+
